@@ -1,0 +1,535 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+/* Xá»¬ LÃ KHá»I TITLE */
+.title {
+    width: 100%;
+    height: 50px;
+    background: #6f6c6c;
+}
+.title .logo a {font-size: 28px;font-weight: 800;color: black;text-decoration: none;line-height: 50px;}
+.title .logo a b {color: #1abc9c;font-size: 38px;}
+.title .mxh ul {list-style: none;display: inline-block;}
+.title .mxh {line-height: 50px;}
+.title .mxh ul li {
+    display: inline-block;
+    padding-right: 17px;
+    font-size: 19px;
+}
+.title .mxh ul li a:hover {color: #1abc9c;}
+.title .mxh ul li a {color: #000000d9;}
+/* HET TITLE */
+
+/* khoi MeNU---1 */
+/* .menu1 ul.trai ul.show {margin-top: 13px;}
+.menu1 ul.trai ul.show li {
+    border-bottom: 1px solid #80808047;
+    padding: 2px 10px;
+    width: 100%;
+    height: 100%;
+}
+.menu1 ul.trai ul.show li:hover {background: #bbbaba;}
+.menu1 ul.trai ul.show li a {text-decoration: none;color: black;}
+.menu1 ul.trai ul.show li:hover a {color: #1abc9c;}
+.navbar {
+    width: 100%;
+    background: #dc3545;
+    height: 50px;
+}
+.menu1 ul.trai  a.nav-link {
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 0;
+}
+.menu1 ul.trai a.nav-link:hover {color: #1abc9c;}
+.menu1 ul.trai {position: relative;} */
+/* HET */
+.menu1 ul.phai .dropdown-menu.show button {
+    position: absolute;
+    top: 4px;
+    right: 1px;
+    width: 38px;
+    height: 30px;
+    line-height: 17px;
+    border: none;
+    color: grey;
+    background: none;
+}
+.menu1 .phai .dropdown-menu.hienra-timkiem{
+    display: block;
+}
+.menu1 ul.phai .dropdown-menu.show {/* padding: 14px; */width: 208px;border: 9px solid #bbbaba;transform: translateX(-83%);border-radius: 20px;display: none;}
+
+.menu1 ul.phai li.nav-item:hover .dropdown-menu.show {
+    display: block;
+}
+
+.menu2 ul.phai .dropdown-menu {
+    position: absolute;
+}
+.menu1 .dropdown-menu {background-color: #bbbaba;}
+.menu1 .dropdown-menu li {border-bottom: 1px solid;}
+.menu1 .dropdown-menu li i {margin-top: 4px;}
+ul#sub-dropdown-menu {
+    margin-left: 158px;
+    margin-top: -45px;
+    display: none;
+    position: absolute;
+}
+
+ul.dropdown-menu li.dropdown:hover ul#sub-dropdown-menu {display: block;}
+.menu1 .dropdown-menu {
+    padding: 0;
+}
+.menu1 .navbar {
+    width: 100%;
+    height: auto;
+    background: #bbbaba;
+    padding: 0;
+}
+.menu1 ul li.nav-item a {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 17px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+.menu1 ul li.nav-item a:hover {
+    background-color: #1abc9c;
+    color: #343a40;
+}
+/* SLIDER */
+.slider .ndslide ul li .motkhoi .text .trai h4 {
+    color:  red;
+}
+.slider .ndslide ul li .motkhoi .text .trai p.thongke {/* padding-top: 49px; */font-size: 25px;/* height: 209px; */}
+.slider .ndslide ul li .motkhoi .text .trai p:before {content: '';border-left: 7px solid red;/* padding-right: 20px; */height: 91px;transform: translateY(102px);margin-left: -14px;display: block;}
+.slider .ndslide ul li .motkhoi .text .trai {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+    /* z-index: 2; */
+    transform: translateY(-50%);
+    color: white;
+}
+.slider .ndslide ul li .motkhoi .text .trai h1 {
+    z-index: 1!important;
+    font-size: 120px;
+    transform: translateY(99%) translateX(-15%);
+    opacity: 0.2;
+    transition: 0.4s;
+
+}
+.slider .ndslide ul li .motkhoi .text .trai h2 {
+    font-size: 80px;
+    margin: 0;
+    font-weight: 900;
+}
+.slider .ndslide ul li .motkhoi .text .phai ul li h3 {}
+.slider .ndslide ul li .motkhoi .text .phai {position: absolute;right: 191px;top: 50%;transform: translateY(-50%);color: white;}
+.slider .ndslide ul li .motkhoi .text .phai h3 {
+    color: red;
+    font-size: 25px;
+    font-weight: 700;
+}
+.slider .ndslide ul li .motkhoi .text .phai .thongtin {
+    padding-bottom: 21px;
+}
+.slider .ndslide ul li .motkhoi .text .phai ul {
+    list-style: none;
+}
+.slider .ndslide ul li .motkhoi {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.slider .ndslide ul li .motkhoi .anh {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 6px 0;
+}
+.slider .ndslide ul li .motkhoi .anh img {
+    width: 100%;
+    max-height: 100%;
+    background-size: cover;
+}
+.slider .ndslide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.slider .ndslide ul {
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.slider .ndslide ul li {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.slider .ndslide ul li .moikhoi {
+    position: relative;
+}
+.slider .ndslide ul li .moikhoi .anh img {
+    width: 100%;
+    height: 100%;
+}
+.slider {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+/* nut */
+.slider .nutslide {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    opacity: 0.5;
+}
+.slider .nutslide .nutTrai:hover, .slider .nutslide .nutPhai:hover {
+    cursor: pointer;
+    color: #d6a1a1;
+}
+.slider .ndslide li.active{
+    opacity: 1; visibility: visible;
+    transition: 0.4s;
+}
+/* CHUYEN DONG NEXT */
+.ndslide ul li.bienMatKhiNext{
+    animation: ani1 1s cubic-bezier(0,-0.21,.08,1.46) forwards;
+}
+@keyframes ani1{
+    0%{transform: translateX(0%);opacity: 1;}
+    100%{transform: translateX(-100%);opacity: 1;}
+}
+.ndslide ul li.diVaoKhiNext{
+    animation: ani2 1s cubic-bezier(0,-0.21,.08,1.46) forwards;
+    /* animation-delay: 1s; */
+}
+@keyframes ani2{
+    0%{transform: translateX(100%);opacity: 1;}
+    100%{transform: translateX(0);opacity: 1;}
+}
+.ndslide ul li.active .motkhoi .text .trai h2{animation: text_h2 2s ease forwards ;}
+@keyframes text_h2{
+    0%{ transform:translateX(20%);
+        opacity: 0.5;}
+    100%{ transform:translateX(0);
+        opacity: 1;}
+}
+.ndslide ul li.active .motkhoi .text .trai h4{animation: text_h4 2s ease backwards;}
+@keyframes text_h4{
+    0%{ transform:translateX(10%);
+        opacity: 0.5;}
+    100%{ transform:translateX(0);
+        opacity: 1;}
+}
+/* CHUYEN DONG PREVIOUS  */
+.ndslide ul li.bienMatKhiPre{
+    animation: ani1_nguoc 1s cubic-bezier(0,.08,0,.96) forwards;
+}
+@keyframes ani1_nguoc{
+    0%{transform: translateX(0%);opacity: 1;}
+    100%{transform: translateX(100%);opacity: 1;}
+}
+.ndslide ul li.diVaoKhiPre{
+    animation: ani2_nguoc 1s cubic-bezier(0,.08,0,.96) forwards;
+    /* animation-delay: 1s; */
+}
+@keyframes ani2_nguoc{
+    0%{transform: translateX(-100%);opacity: 1;}
+    100%{transform: translateX(0);opacity: 1;}
+}
+.ndslide ul li.bienMatKhiPre .motkhoi .text .trai h2{animation: text_h2_nguoc 2s ease forwards ;}
+@keyframes text_h2_nguoc{
+    0%{ transform:translateX(-30%);
+        opacity: 0.5;}
+    100%{ transform:translateX(0);
+        opacity: 1;}
+}
+.ndslide ul li.diVaoKhiPre .motkhoi .text .trai h4{animation: text_h4_nguoc 2s ease forwards;}
+@keyframes text_h4_nguoc{
+    0%{ transform:translateX(-50%);
+        opacity: 0.5;}
+    100%{ transform:translateX(0%);
+        opacity: 1;}
+}
+/*  HET SLIDER */
+/* KHOI 3 COT */
+
+.why { padding-top: 30px;}
+.why h1 {padding-bottom: 11px;}
+.why h1:after {content: "";border-bottom: 3px solid red;display: block;width: 50px;text-align: center;transform: translateX(334px);padding-top: 20px;}
+.motkhoi .duoi {border-bottom: 3px solid #dc3545;}
+.motkhoi .duoi a.btn {width: 150px;margin-left: 11px;margin-bottom: 30px;}
+.motkhoi .duoi p {
+    padding-left: 11px;
+    width: 333px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 6px;
+}
+.motkhoi .duoi h2 {
+    padding: 15px 11px 0;
+    font-size: 25px;
+    font-weight: 800;
+    color: #525050;
+}
+.motkhoi .duoi h2:after {
+    content: " ";
+    border-bottom: 3px solid red;
+    display: block;
+    width: 65px;
+    padding-top: 20px;
+}
+._3cot .motkhoi {margin-top: 30px;box-shadow: 0px 1px 13px 1px black;}
+.motkhoi .tren img {width: 100%;height: 100%;}
+.moikhoi .tren {width: 100%;height: 100%;}
+.moikhoi .tren img {width: 100%;height: 100%;}
+/* HET KHOI 3 COT */
+/* PROJECT */
+.project .giua ul {
+    list-style: none;
+    display: inline;
+}
+
+.project .giua ul li {
+    display: inline;
+    margin-right: 10px;
+}
+.project .giua ul li button.active {
+    color: cornflowerblue!important;
+    background: #dc3545!important;
+}
+.project .giua ul li button {
+    padding: 4px 10px;
+    border: none;
+    color: black!important;
+    font-weight: 700;
+}
+
+.project .giua ul li button:hover  {
+    color: cornflowerblue!important;
+    background: #dc3545!important;
+}
+        /* CACK 1 */
+/* .project .giua ul li button.active {
+    color: cornflowerblue!important;
+    background: #dc3545!important;
+}
+.project .giua ul li button {
+    padding: 4px 10px;
+    border: none;
+    color: black!important;
+    font-weight: 700;
+}
+
+.project .giua ul li button:hover  {
+    color: cornflowerblue!important;
+    background: #dc3545!important;
+} */
+
+/* nút */
+/* .project .duoi .animation{opacity: 0;visibility: hidden;position: absolute;}
+.project .duoi .animation.active{opacity: 1; visibility: visible;}
+
+.project .duoi {
+    width: 100%;
+    position: relative;
+}
+.project .duoi .animation ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.project .duoi .animation ul li {
+    width: 30%;
+    height: 100%;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 22px;
+}
+.project .duoi .animation ul li .nen {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.4s;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    background: #383d416e;
+}
+.project .duoi .animation ul li .nen a {
+    font-size: 19px;
+    background-color: #ad6262;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    transform: translateY(-50%);
+    margin-right: 10px;
+    border-radius: 20px;
+    color: powderblue;
+    opacity: 1;
+    margin-top: 29%;
+}
+.project .duoi .animation ul li:hover .nen {opacity: 1;visibility: visible;}
+.project .duoi .animation ul li .pic {width: 100%;height: 100%;}
+.project .duoi .animation ul li:hover .pic {animation: ani_pic 6s forwards;}
+.project .duoi .animation ul li .pic img {width: 100%;height: 100%;}
+@keyframes ani_pic{
+    0%{transform: scale(1);}
+    100%{transform: scale(1.5);}
+}
+#all, #braker, #suspen, #wheel{
+    animation: product 2s ease-out;
+    -moz-animation: product 2s ease-out;
+    animation: product 2s ease-in;
+    -moz-animation: product 2s ease-in;
+    transition: 0.4s;
+} 
+@keyframes product{
+    0%{
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    100%{ 
+        transform: translateY(0px);
+        opacity: 1;
+    }
+} */
+/* --------HET CACH 1------------------------ */
+
+/* CACH 2 */
+*{margin: 0; padding: 0;}
+.project .portfolio-filter {margin-bottom: 40px;}
+.project .portfolio-item .portfolio-item-inner {position: relative;border: 11px solid antiquewhite;border-radius: 20px;overflow: hidden;}
+.project .portfolio-item-inner .nen {
+    background: #0000006b;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+.project .portfolio-item-inner:hover .nen {opacity: 1;visibility: visible;}
+.project .portfolio-item-inner .nen:hover a {opacity: 1; visibility: visible;}
+.project .portfolio-item-inner .nen a {
+    color: #b3d7ff;
+    background: darkcyan;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    transform: translateY(88px);
+    display: inline-block;
+    opacity: 0;
+    visibility: hidden;
+}
+.project .portfolio-item {
+    width: 33%;
+    max-width: 33%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.project .portfolio-item.hide{
+    display: none;
+}
+.project .portfolio-item.show{
+    display: block;
+} 
+.project .portfolio-item .pic img {width: 100%;height: 100%;}
+.project .portfolio .portfolio-filter button {margin-top: 50px;margin-right: 19px;border: none;outline: none;color: black;font-weight: 800;}
+.project .portfolio .portfolio-filter button:hover {background: #dc3545;}
+.project .portfolio .portfolio-filter button.active {background: #dc3545!important;color: black!important;}
+
+
+
+
+
+
+
+/* .project .giua button {
+    border: none;
+    outline: none;
+    margin-right: 20px;
+    padding: 5px 20px;
+    color: black;
+}
+
+.project .giua button.active {
+    background-color: #dc3545!important;
+    color: #004085!important;
+}
+.animation {
+    width: 30%;
+    float: left;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+.animation .content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.animation .content .nen {
+    width: 100%;
+    height: 100%;
+    background-color: #0000004d;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.animation .content:hover .nen {
+    opacity: 1;
+    visibility: visible;
+}
+
+.animation .content .nen a {
+    line-height: 250px;
+    font-size: 23px;
+    color: aquamarine;
+    background: #d2691e91;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.animation .content .pic img {
+    width: 100%;
+}  */
+
+/*  HET CACH 2 */
+
+/* HET KHOI PROJECT */
